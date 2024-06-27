@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Restaurant Menu</h1>
+        <nav>
+            <ul>
+                <li><a href="#" onclick="filterMenu('all')">All Items</a></li>
+                <li><a href="#" onclick="filterMenu('Biryani')">Biryani</a></li>
+                <li><a href="#" onclick="filterMenu('desi')">Desi Food</a></li>
+                <li><a href="#" onclick="filterMenu('chinese')">Chinese food</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="menu" id="menu">
+        <!-- Menu items will go here -->
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
